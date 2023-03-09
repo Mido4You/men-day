@@ -1,0 +1,33 @@
+body {
+	font-family: Verdana;
+	color: white;
+	background-image: url("background.jpg");
+	background-size: 1920px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
+.title {
+	color: black;
+    background: linear-gradient(to bottom, #99ccff -16%, #ffffff 105%);
+	background-repeat: repeat-x;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 25px;
+}
+.header {
+	border: 1px solid;
+	border-radius: 25px;	
+	width: 1000px;
+	background-color: rgba(0, 0, 0, 0.3);
+	display:  flex;
+	align-items: center;
+	flex-direction: column;
+}
+img {
+	border: 1px solid;	
+	width: 800px;
+}
+li {
+	text-align: left;
+}
